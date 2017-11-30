@@ -29,7 +29,7 @@ public class Order {
     }
 
     //3 methods
-    void confirmOrder() {
+    public void confirmOrder() {
         if (isConfirmed) {//это длинная конструкц. if, else     //вот более короткий пример: if (!isConfirmed)
         } else {                                                                            //isConfirmed = true;
             isConfirmed = true;                                                           //dateConfirmed = new Date();
